@@ -1,0 +1,40 @@
+.header {
+    color: #212121;
+}
+.header:hover {
+    color: #2196F3;
+}
+.header:focus {
+    color: #2196F3;
+}
+.header-contacts {
+    color: #757575;
+}
+.header-contacts:hover {
+    color: #2196F3;
+}
+.header-contacts:focus {
+    color: #2196F3;
+}
+
+.h3 {
+    color: #212121;
+}
+.p1 {
+    color: #757575;
+}
+.h2 {
+    color: #212121;
+}
+.footer-adress:hover {
+    color: #2196F3;
+}
+.footer-adress:focus {
+    color: #2196F3;
+}
+.fotter-contacts:hover {
+    color: #2196F3;
+}
+.fotter-contacts:focus {
+    color: #2196F3;
+}
