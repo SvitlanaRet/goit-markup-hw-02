@@ -3,8 +3,10 @@
     --secondary-text-color: rgba(117, 117, 117, 1);
     --third-text-color: rgba(255, 255, 255, 1);
     --accent-color: rgba(33, 150, 243, 1);
+    
 }
 
+/* Start Studio page */
 /* Шапка */
 .logo {
     color: var(--primary-text-color);
@@ -44,6 +46,33 @@
     color: var(--third-text-color);
 }
 
+/* Особливості */
+.caption-features {
+    color: var(--primary-text-color);
+}
+.text-features {
+    color: var(--secondary-text-color);
+}
+
+/* Чим ми займаємося  */
+.caption {
+    color: var(--primary-text-color);
+}
+
+/* Наша команда */
+.bg-team {
+    background-color: rgba(245, 244, 250, 1);
+}
+.caption {
+    color: var(--primary-text-color);
+}
+.name-team {
+    color: var(--primary-text-color);
+}
+.desk-team {
+    color: var(--secondary-text-color);
+}
+
 /* Підвал */
 .bg-footer {
     background-color: rgba(47, 48, 58, 1);
@@ -63,3 +92,6 @@
 .footer-contacts {
     color: rgba(255, 255, 255, 0.6);
 }
+/* Finish Studio page */
+
+/* Start Portfolio page */
