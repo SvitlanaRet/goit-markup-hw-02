@@ -95,3 +95,73 @@
 /* Finish Studio page */
 
 /* Start Portfolio page */
+/* Шапка */
+.logo {
+    color: var(--primary-text-color);
+}
+.logo-first {
+    color: var(--accent-color);
+}
+.list-nav {
+    color: var(--primary-text-color);
+}
+.list-nav:hover,
+.list-nav:focus {
+    color: var(--accent-color);
+}
+.nav-contacts {
+    color: var(--secondary-text-color);
+}
+.nav-contacts:hover,
+.nav-contacts:focus {
+    color: var(--accent-color);
+}
+
+/* Фільтр */
+.bg-filtres {
+    background-color: 
+    rgba(245, 244, 250, 1);
+    color: var(--primary-text-color);
+}
+.bg-filtres:hover,
+.bg-filtres:focus {
+    background-color: var(--accent-color);
+    color: var(--third-text-color);
+}
+
+/* Проекти */
+.caption-projects {
+    color: var(--primary-text-color);
+}
+.desk-projects {
+    color: var(--secondary-text-color);
+}
+
+/* Підвал */
+.bg-footer {
+    background-color: rgba(47, 48, 58, 1);
+}
+.logo {
+    color: var(--primary-text-color);
+}
+.logo-first {
+    color: var(--accent-color);
+}
+.logo-second {
+    color: var(--third-text-color);
+}
+.footer-adress {
+    color: var(--third-text-color);
+}
+.footer-adress:hover,
+.footer-adress:focus {
+color: var(--accent-color);
+}
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: var(--accent-color);
+}
+/* Finish Portfolio page */
