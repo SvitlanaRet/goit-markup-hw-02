@@ -3,7 +3,6 @@
     --secondary-text-color: rgba(117, 117, 117, 1);
     --third-text-color: rgba(255, 255, 255, 1);
     --accent-color: rgba(33, 150, 243, 1);
-    
 }
 
 /* Start Studio page */
@@ -119,8 +118,7 @@
 
 /* Фільтр */
 .bg-filtres {
-    background-color: 
-    rgba(245, 244, 250, 1);
+    background-color: rgba(245, 244, 250, 1);
     color: var(--primary-text-color);
 }
 .bg-filtres:hover,
@@ -155,7 +153,7 @@
 }
 .footer-adress:hover,
 .footer-adress:focus {
-color: var(--accent-color);
+    color: var(--accent-color);
 }
 .footer-contacts {
     color: rgba(255, 255, 255, 0.6);
