@@ -21,7 +21,7 @@ body {
 .logo-first {
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
-    ont-weight: 700;
+    font-weight: 700;
     font-size: 1.19;
     line-height: 31px;
     letter-spacing: 0.03em;
@@ -152,6 +152,10 @@ nav {
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
+.footer-adress:hover,
+.footer-adress:focus {
+    color: var(--accent-color);
+}
 .footer-contacts {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
@@ -160,31 +164,16 @@ nav {
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: var(--accent-color);
+}
 /* Finish Studio page */
 
 /* Start Portfolio page */
-/* Шапка */
-.logo {
-    color: var(--primary-text-color);
+button {
+    cursor: pointer;
 }
-.logo-first {
-    color: var(--accent-color);
-}
-.list-nav {
-    color: var(--primary-text-color);
-}
-.list-nav:hover,
-.list-nav:focus {
-    color: var(--accent-color);
-}
-.nav-contacts {
-    color: var(--secondary-text-color);
-}
-.nav-contacts:hover,
-.nav-contacts:focus {
-    color: var(--accent-color);
-}
-
 /* Фільтр */
 .bg-filtres {
     background-color: rgba(245, 244, 250, 1);
@@ -195,40 +184,27 @@ nav {
     background-color: var(--accent-color);
     color: var(--third-text-color);
 }
-
+.text-filtres {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
 /* Проекти */
 .caption-projects {
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 .desk-projects {
     color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
 }
 
-/* Підвал */
-.bg-footer {
-    background-color: rgba(47, 48, 58, 1);
-}
-.logo {
-    color: var(--primary-text-color);
-}
-.logo-first {
-    color: var(--accent-color);
-}
-.logo-second {
-    color: var(--third-text-color);
-}
-.footer-adress {
-    color: var(--third-text-color);
-}
-.footer-adress:hover,
-.footer-adress:focus {
-    color: var(--accent-color);
-}
-.footer-contacts {
-    color: rgba(255, 255, 255, 0.6);
-}
-.footer-contacts:hover,
-.footer-contacts:focus {
-    color: var(--accent-color);
-}
 /* Finish Portfolio page */
