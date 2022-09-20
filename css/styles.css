@@ -4,6 +4,7 @@
     --third-text-color: #ffffff;
     --footer-text-color: rgba(255, 255, 255, 0.6);
     --accent-color: #2196f3;
+    --black-color: #000000;
 }
 
 /* Start Studio page */
@@ -13,8 +14,8 @@ body {
 }
 /* Шапка */
 .logo {
-    color: var(--primary-text-color);
-    font-family: Raleway, sans-serif;
+    color: var(--black-color);
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -39,6 +40,9 @@ body {
 }
 .list-nav:hover,
 .list-nav:focus {
+    color: var(--accent-color);
+}
+.list-nav.current {
     color: var(--accent-color);
 }
 .header-contacts {
@@ -118,6 +122,10 @@ body {
 .bg-team {
     background-color: #f5f4fa;
 }
+.card-team {
+    background-color: var(--third-text-color);
+    list-style-type: none;
+}
 .name-team {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -137,9 +145,6 @@ body {
 /* Підвал */
 .bg-footer {
     background-color: #2f303a;
-}
-.logo {
-    color: var(--primary-text-color);
 }
 .logo-first {
     color: var(--accent-color);
@@ -180,9 +185,18 @@ button {
     cursor: pointer;
 }
 /* Фільтр */
-.hide {
-    visibility: hidden;
-}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
 .filtres {
     list-style-type: none;
 }
